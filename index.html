@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Frontend Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+
+        <a href="#home" class="logo">MyPortfolio.</a>
+
+        <button class="menu-btn" id="menuBtn"
+        aria-label="Open menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="home">
+
+    <div class="home-content">
+
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>Bhumika Jaware</span></h1>
+
+        <h2>Aspiring Frontend Developer</h2>
+
+        <p>
+            I am a T.Y. B.Sc. IT student passionate about
+            web development. I enjoy creating attractive,
+            responsive and user-friendly websites.
+            I am continuously improving my technical skills.
+        </p>
+
+        <a href="#projects" class="btn">
+            View My Projects
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+    <h2 class="heading">About <span>Me</span></h2>
+
+    <div class="about-content">
+
+        <p>
+            Hello! I am a Third Year B.Sc. Information
+            Technology student interested in Frontend
+            Development.
+
+            I have knowledge of HTML and CSS and I am
+            currently learning JavaScript.
+
+            I enjoy learning new technologies and
+            developing creative websites.
+
+            My career goal is to become a skilled
+            Frontend Developer and gain practical
+            experience through an internship.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+
+    <h2 class="heading">My <span>Education</span></h2>
+
+    <div class="education-card">
+
+        <h3>T.Y. B.Sc. Information Technology</h3>
+
+        <p>Undergraduate Student</p>
+
+        <p>
+            Currently pursuing Third Year Bachelor
+            of Science in Information Technology.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+
+        <div class="skill">HTML</div>
+
+        <div class="skill">CSS</div>
+
+        <div class="skill">JavaScript - Learning</div>
+
+        <div class="skill">Python</div>
+
+        <div class="skill">C++</div>
+
+        <div class="skill">Responsive Design</div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+
+            <h3>Smart Inventory & Billing Management System</h3>
+
+            <p>
+                A mobile application designed to help
+                grocery and kirana shopkeepers manage
+                products, stock, billing and sales records.
+            </p>
+
+            <span>Project | Inventory Management</span>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>To-Do List Application</h3>
+
+            <p>
+                A task management application that allows
+                users to add, update, delete and mark
+                tasks as completed.
+            </p>
+
+            <span>Practice Project | HTML, CSS, JS</span>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Weather Application</h3>
+
+            <p>
+                A weather application designed to display
+                city temperature and weather conditions
+                using a weather API.
+            </p>
+
+            <span>Practice Project | HTML, CSS, JS, API</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <div class="contact-box">
+
+        <p>
+            I am interested in Frontend Developer
+            internship opportunities.
+            Feel free to connect with me!
+        </p>
+
+        <form id="contactForm">
+
+            <input type="text" id="name"
+            placeholder="Your Name" required>
+
+            <input type="email" id="email"
+            placeholder="Your Email" required>
+
+            <textarea id="message"
+            placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+        <p id="formStatus"></p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <p>
+        © 2026 My Portfolio | All Rights Reserved
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
